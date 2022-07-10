@@ -122,7 +122,7 @@ function replyData(){
 				<th width="100">글 번호</th>
 				<td width="200">${dto.writeNo }</td>
 				<th width="100">작성자</th>
-				<td width="200">${dto.id }</td>
+				<td width="200"><a href="/root/member/info?id=${dto.id }">${dto.id }</td>
 			</tr>
 			<tr>
 				<th>제 목</th>

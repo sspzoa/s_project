@@ -11,7 +11,12 @@
 	<br>
 	<h3 align="center">- H O M E -</h3>
 	<br>
-
+	<c:if test="${loginUser != null }">
+		<h3 align="center">${loginUser }님 환영합니다</h3>
+	</c:if>
+	<c:if test="${loginUser == null }">
+		<h3 align="center">로그인하여 더 많은 콘텐츠를 즐겨보세요!</h3>
+	</c:if>
 </body>
 </html>
 

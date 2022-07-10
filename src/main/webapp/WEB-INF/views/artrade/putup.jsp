@@ -4,10 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ArTrade - ArTrade</title>
+<title>ArTrade - Put Up</title>
 </head>
 <body>
 	<%@ include file="../default/header.jsp"%>
-	<h1>Hello world</h1>
 </body>
-</html>
+<div align="center">
+		<br>
+		<h3 align="center">- P U T&nbsp;&nbsp;U P -</h3>
+		<br>
+	</div>

@@ -87,7 +87,7 @@ nav ul li a:hover {
 				<ul>
 					<li><a href="/root">HOME</a></li>
 					
-					<li><a href="/root/artrade/artradeMain">ARTRADE</a></li>
+					<li><a href="/root/artrade/main">ARTRADE</a></li>
 
 					<li><a href="/root/member/memberInfo">MEMBER</a></li>
 

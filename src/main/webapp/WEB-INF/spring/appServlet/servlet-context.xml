@@ -35,6 +35,9 @@
 		<interceptor>
 			<mapping path="/member/memberInfo" />
 			<mapping path="/board/writeForm" />
+			<mapping path="/board/contentView" />
+			<mapping path="/artrade/putup" />
+			<mapping path="/member/info" />
 			<beans:ref bean="loginChk" />
 		</interceptor>
 		<interceptor>
