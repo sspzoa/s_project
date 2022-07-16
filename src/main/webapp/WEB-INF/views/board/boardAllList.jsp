@@ -13,14 +13,14 @@
 		<h3 align="center">- B O A R D -</h3>
 		<br>
 		<table class="table table-bordered"
-			style="width: 700px; margin: 0 auto;">
+			style="width: 800px; margin: 0 auto;">
 			<tr style="background-color: #F0E68C;">
 				<th>번호</th>
 				<th>id</th>
 				<th>제목</th>
 				<th>날짜</th>
 				<th>조회수</th>
-				<th>이미지이름</th>
+				<th>이미지 이름</th>
 			</tr>
 			<c:if test="${boardList.size() == 0 }">
 				<tr>
