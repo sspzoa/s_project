@@ -17,6 +17,7 @@
 	<c:if test="${loginUser == null }">
 		<h3 align="center">로그인하여 더 많은 콘텐츠를 즐겨보세요!</h3>
 	</c:if>
+	aaaaa
 </body>
 </html>
 
