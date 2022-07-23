@@ -13,11 +13,18 @@
 		<h3 align="center">- A R T R A D E -</h3>
 		<br>
 	</div>
-	<div align="center">
-		<input type="button" value="아트레이드"
-			onclick="location.href='auction'">
-		<input type="button" value="경매 등록"
-			onclick="location.href='putup'">
+
+	<div style="width: 200px; margin: auto;" class="wrap" align="center">
+		<table class="table" style="text-align: center;">
+			<tr>
+				<th><input type="button" value="아트레이드"
+					onclick="location.href='auction'"></th>
+			</tr>
+			<tr>
+				<th><input type="button" value="경매 등록"
+					onclick="location.href='putup'"></th>
+			</tr>
+		</table>
 	</div>
 </body>
 </html>

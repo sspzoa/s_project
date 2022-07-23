@@ -13,7 +13,7 @@
 		<h3 align="center">- L O G I N -</h3>
 		<br>
 	</div>
-	<div style="width: 400px; margin: auto;" class="wrap" align="center">
+	<div style="width: 500px; margin: auto;" class="wrap" align="center">
 		<form action="user_check" method="post">
 			<table class="table">
 				<tr>
@@ -28,11 +28,13 @@
 
 				</tr>
 			</table>
-			<div align="left">
-				<input type="submit" value="로그인"> <input type="button"
-					value="회원가입" onclick="location.href='register_form'"> <input
-					type="checkbox" name="autoLogin"> 자동로그인
-			</div>
+			<table class="table">
+				<tr>
+					<td><input type="submit" value="로그인"> <input
+						type="button" value="회원가입" onclick="location.href='register_form'">
+						<input type="checkbox" name="autoLogin"> 자동로그인</td>
+				</tr>
+			</table>
 		</form>
 	</div>
 </body>

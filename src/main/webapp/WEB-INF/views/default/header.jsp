@@ -77,8 +77,9 @@ nav ul li a:hover {
 </head>
 <body>
 	<div class="wrap">
-		<div class="header">
-			<h1 class="title">ArTrade</h1>
+		<div class="header" style="text-align: center">
+			<a href="/root"><img src="/root/resources/artrade_logo.png" width="500"
+				height="150"></a>
 		</div>
 	</div>
 	<div class="navdiv">
@@ -86,7 +87,7 @@ nav ul li a:hover {
 			<nav>
 				<ul>
 					<li><a href="/root">HOME</a></li>
-					
+
 					<li><a href="/root/artrade/main">ARTRADE</a></li>
 
 					<li><a href="/root/member/memberInfo">MEMBER</a></li>
