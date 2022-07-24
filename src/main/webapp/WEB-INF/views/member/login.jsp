@@ -25,7 +25,6 @@
 					<th>비밀번호</th>
 					<td><input type="password" name="pw"
 						placeholder="input password"></td>
-
 				</tr>
 			</table>
 			<table class="table">
