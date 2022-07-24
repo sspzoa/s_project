@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ArTrade - PutUp</title>
+<title>ArTrade - ArTrade</title>
 </head>
 <body>
 	<%@ include file="../default/header.jsp"%>

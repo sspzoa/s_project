@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ArTrade - Auction</title>
+<title>ArTrade - ArTrade</title>
 </head>
 <body>
 	<%@ include file="../default/header.jsp"%>
@@ -23,14 +23,21 @@
 				<th>경매 시작가</th>
 				<th>바로 구매가</th>
 			</tr>
+			<c:if test="${auctionList.size() == 0 }">
+				<tr>
+					<th colspan="6">등록된 경매가 없습니다</th>
+				</tr>
+			</c:if>
+			<c:forEach var="dto" items="${auctionList }">
 			<tr>
-				<td>A</td>
-				<td>B</td>
-				<td>C</td>
-				<td>D</td>
-				<td>E</td>
-				<td>F</td>
+				<td><a href="/root/member/info?id=${dto.id }">${dto.id }</a></td>
+				<td>${dto.putupDate }</td>
+				<td>${dto.hit }</td>
+				<td>${dto.artName }</td>
+				<td>${dto.stPrice }</td>
+				<td>${dto.binPrice }</td>
 			</tr>
+			</c:forEach>
 		</table>
 </body>
 </html>

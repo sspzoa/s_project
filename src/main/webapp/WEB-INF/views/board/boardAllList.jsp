@@ -30,7 +30,7 @@
 			<c:forEach var="dto" items="${boardList }">
 				<tr>
 					<td>${dto.writeNo }</td>
-					<td><a href="/root/member/info?id=${dto.id }">${dto.id }</td>
+					<td><a href="/root/member/info?id=${dto.id }">${dto.id }</a></td>
 
 					<td><a href="contentView?writeNo=${dto.writeNo }">${dto.title }</a>
 					</td>

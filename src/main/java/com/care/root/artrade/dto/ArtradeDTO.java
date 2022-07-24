@@ -1,8 +1,8 @@
 package com.care.root.artrade.dto;
 
 public class ArtradeDTO {
-	private int stPrice, binPrice;
-	private String artName, putupDate;
+	private int stPrice, binPrice, hit;
+	private String artName, id, putupDate;
 	
 	public int getStPrice() {
 		return stPrice;
@@ -15,6 +15,18 @@ public class ArtradeDTO {
 	}
 	public void setBinPrice(int binPrice) {
 		this.binPrice = binPrice;
+	}
+	public int getHit() {
+		return hit;
+	}
+	public void setHit(int hit) {
+		this.hit = hit;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
 	}
 	public String getArtName() {
 		return artName;
