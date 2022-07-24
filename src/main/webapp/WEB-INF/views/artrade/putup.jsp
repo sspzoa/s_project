@@ -20,7 +20,7 @@
 			<textarea rows="3" cols="50" name="content"></textarea>
 			<hr>
 			<b>시작 가격</b><br> <input type="text" size="50" name="stPrice"><br>
-			<b>바로 구매 가격</b><br> <input type="text" size="50" name="BIN"><br>
+			<b>바로 구매 가격</b><br> <input type="text" size="50" name="binPrice"><br>
 			<hr>
 			<b>작품 이미지 첨부</b><br> <input type="file" name="art_image_name"
 				onchange="readURL(this)"> <img src="#" width="100"
